@@ -1,0 +1,38 @@
+ <section class="container">
+  <div class="left-half" routerLink="/classics" (mouseover)="hover1=true" (mouseout)="hover1=false">
+    <div class="overlay"></div>
+    <article>
+      <h1>Classics</h1>
+    </article>
+    <p class="info" *ngIf="hover1">Info about Shiara and the classics part.</p>
+  </div>
+  <div class="right-half" routerLink="/comics" (mouseover)="hover2=true" (mouseout)="hover2=false">
+    <div class="overlay"></div>
+    <article>
+      <h1>Comics</h1>
+    </article>
+    <p class="info" *ngIf="hover2">Info about Maite and the comics part.</p>
+  </div>
+</section>
+<section>
+  <h1>About</h1>
+</section>
+
+
+<!--<section class="container">-->
+  <!--<div class="left-half">-->
+    <!--<article>-->
+      <!--<h1>Left Half</h1>-->
+      <!--<p>Weekends don't count unless you spend them doing something completely pointless.</p>-->
+    <!--</article>-->
+  <!--</div>-->
+  <!--<div class="right-half">-->
+    <!--<article>-->
+      <!--<h1>Right Half</h1>-->
+      <!--<p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life.</p>-->
+    <!--</article>-->
+  <!--</div>-->
+<!--</section>-->
+<!--<section>-->
+  <!--<h1>About</h1>-->
+<!--</section>-->
